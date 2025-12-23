@@ -46,5 +46,5 @@ btn.addEventListener("click",(event)=>
 
 box.addEventListener("input",function(e){
 
-msg.textContent = "Typed value: " + event.target.value;
+msg.textContent = "Typed value: " + e.target.value;
 });
